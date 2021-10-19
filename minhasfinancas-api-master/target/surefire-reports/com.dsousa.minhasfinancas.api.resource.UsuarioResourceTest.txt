@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: com.dsousa.minhasfinancas.api.resource.UsuarioResourceTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 16.895 s <<< FAILURE! - in com.dsousa.minhasfinancas.api.resource.UsuarioResourceTest
+deveAutenticarUmUsuario  Time elapsed: 0.029 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'usuarioResource' defined in file [C:\Users\anton\Desktop\minhasfinancas-api-master(2)\minhasfinancas-api-master\target\classes\com\dsousa\minhasfinancas\api\resource\UsuarioResource.class]: Unsatisfied dependency expressed through constructor parameter 2; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.dsousa.minhasfinancas.service.JwtService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.dsousa.minhasfinancas.service.JwtService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+
+deveObterOSaldoDoUsuario  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'usuarioResource' defined in file [C:\Users\anton\Desktop\minhasfinancas-api-master(2)\minhasfinancas-api-master\target\classes\com\dsousa\minhasfinancas\api\resource\UsuarioResource.class]: Unsatisfied dependency expressed through constructor parameter 2; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.dsousa.minhasfinancas.service.JwtService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.dsousa.minhasfinancas.service.JwtService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+
+deveRetornarBadRequestAoObterErroDeAutenticacao  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'usuarioResource' defined in file [C:\Users\anton\Desktop\minhasfinancas-api-master(2)\minhasfinancas-api-master\target\classes\com\dsousa\minhasfinancas\api\resource\UsuarioResource.class]: Unsatisfied dependency expressed through constructor parameter 2; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.dsousa.minhasfinancas.service.JwtService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.dsousa.minhasfinancas.service.JwtService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+
+deveRetornarBadRequestAoTentarCriarUmUsuarioInvalido  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'usuarioResource' defined in file [C:\Users\anton\Desktop\minhasfinancas-api-master(2)\minhasfinancas-api-master\target\classes\com\dsousa\minhasfinancas\api\resource\UsuarioResource.class]: Unsatisfied dependency expressed through constructor parameter 2; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.dsousa.minhasfinancas.service.JwtService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.dsousa.minhasfinancas.service.JwtService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+
+deveRetornarResourceNotFoundQuandoUsuarioNaoExisteParaObterOSaldo  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'usuarioResource' defined in file [C:\Users\anton\Desktop\minhasfinancas-api-master(2)\minhasfinancas-api-master\target\classes\com\dsousa\minhasfinancas\api\resource\UsuarioResource.class]: Unsatisfied dependency expressed through constructor parameter 2; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.dsousa.minhasfinancas.service.JwtService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.dsousa.minhasfinancas.service.JwtService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+
+deveCriarUmNovoUsuario  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'usuarioResource' defined in file [C:\Users\anton\Desktop\minhasfinancas-api-master(2)\minhasfinancas-api-master\target\classes\com\dsousa\minhasfinancas\api\resource\UsuarioResource.class]: Unsatisfied dependency expressed through constructor parameter 2; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.dsousa.minhasfinancas.service.JwtService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.dsousa.minhasfinancas.service.JwtService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+
